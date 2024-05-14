@@ -4,7 +4,7 @@ import pandas as pd
 import base64
 
 def main():
-    st.title("Milestone 6")
+    st.title("Milestone 3")
 
     # Text input for user to provide the URL of the test data
     userURL = st.text_input('Enter URL of Test Data')
