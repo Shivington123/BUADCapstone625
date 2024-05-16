@@ -23,7 +23,7 @@ milestone1output_dir = "dropbox"
 milestone1output_dirnew = "dropbox/knownPics-custID_PicID/identityPics-custID_PicID"
 
 def main():
-    st.title("Milestone 6")
+    st.title("Milestone 7")
 
     # Text input for user to provide the URL of the test data
     userURL = st.text_input('Enter URL of Test Data')
