@@ -1,3 +1,7 @@
 streamlit
 pandas
 requests
+regex
+boto3
+numpy
+python-dateutil
