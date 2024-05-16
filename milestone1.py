@@ -71,8 +71,8 @@ def milestone1output(milestone3df, target_dir, extractedTerm,milestone1output_di
   # This is where you enter source and target directories in createFrames()
   merge_df1 = createFrames(SourceDirectory=milestone1output_dirnew , TargetDirectory=target_dir)
   session = boto3.Session(
-      aws_access_key_id = os.environ['aws_access_key_id'],
-      aws_secret_access_key = os.environ['aws_secret_access_key'],
+      aws_access_key_id = os.getenv['aws_access_key_id'],
+      aws_secret_access_key = os.getenv['aws_secret_access_key'],
   )
   client = session.client('rekognition','us-east-1')
 
